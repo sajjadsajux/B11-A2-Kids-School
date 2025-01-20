@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-google {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+  max-width: 1440px;
+
+}
+
+
+
+/* Hidden for desktop */
+.mobile{
+  display: none;
+}
+nav i{
+  font-size: 1.5rem;
+
+}
+.nav-hr{
+  border: none;
+  height: 0.5px;
+  max-width: 100%;
+  background-color:rgb(254, 163, 1);
+  margin: 20px auto;
+}
+/* Navbar */
+.brand{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.brand h3{
+  color: rgb(17, 17, 17);
+font-family: Quicksand;
+font-size: 2rem;
+font-weight: 700;
+text-align: left;
+}
+
+.nav-links{
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+.nav-links a{
+  text-decoration: none;
+}
+.nav-links a:nth-child(1){
+  color: rgb(254, 163, 1);
+  font-family: Quicksand;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+.nav-links a:nth-child(2){
+  color: rgb(1, 172, 253);
+font-family: Quicksand;
+font-size: 1.25rem;
+font-weight: 500;
+line-height: 30px;
+text-align: left;
+}
+.nav-links a:nth-child(3){
+  color: rgb(5, 212, 223);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+text-align: left;
+}
+.nav-links a:nth-child(4){
+  color: rgb(93, 88, 239);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+text-align: left;
+}
+.n-button{
+  width: 197px;
+  height: 50px;
+  border-radius: 12px;
+  background: rgb(254, 163, 1);
+  color: rgb(255, 255, 255);
+  border: none;
+  font-family: Quicksand;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  max-width: 1440px;
+}
+/* Banner Section */
+
+.banner-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  margin:  50px;
+
+}
+
+
+.banner-info h1{
+  font-family: Quicksand;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 61px;
+  text-align: left;
+  color: #111111;
+}
+#empowering{
+  color: #FEA301;
+}
+#towards{
+  color: #01ACFD;
+}
+
+.banner-info p{
+  color: rgb(17, 17, 17);
+  font-family: Quicksand;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  margin: 24px 0;
+}
+.banner-button{
+  width: 197px;
+  height: 50px;
+  border: none;
+  border-radius: 12px;
+  background: rgb(17, 17, 17);
+
+  color: rgb(255, 255, 255);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center; 
+
+}
+
+.banner-img img{
+  width: 100%;
+}
+
+
+/* RESPONSIVE SECTION */
+/* navbar */
+@media screen and (max-width:576px) {
+
+  body{
+    max-width: 100%;
+  }
+  .desktop{
+    display: none;
+  }
+  .mobile{
+    display: block;
+  }
+  nav{
+    gap: 200px ;
+  }
+  .banner-container{
+    flex-direction: column-reverse;
+    max-width: 100%;
+    margin: 10px auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner-info{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 90%;
+  }
+  .banner-info h1{
+    text-align: center;
+    font-size: 2rem;
+  }
+  .banner-info p{
+    text-align: center;
+    font-size: 1rem;
+  }
+  .banner-img img{
+    width: 80%;
+  }
+  .banner-button{
+    width: 131px;
+    height: 42px;
+    font-size: 1rem;
+
+}
