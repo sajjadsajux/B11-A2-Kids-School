@@ -620,7 +620,8 @@ margin-top: 20px;
   }
   .banner-info p{
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 1rem;
+    font-weight: 600;
   }
   .banner-img img{
     width: 80%;
@@ -634,8 +635,8 @@ margin-top: 20px;
 /* standard section */
 
 .standard-container{
-max-width: 95%;
-margin: 20px auto;
+max-width: 100%;
+margin: 20px 0;
 flex-direction: column;
 gap: 20px;
 }
@@ -648,6 +649,11 @@ font-size: 1.6rem;
 padding-top: 30px;
 
 }
+.cards3 ,.cards2, .cards{
+  max-width: 99%;
+  margin: 10px auto;
+}
+
 /* stories section */
 
 .right-card img{
@@ -663,7 +669,7 @@ padding-top: 30px;
 .mini-card h5{
   padding: 0 5px;
   font-size: 8px;
-  top: 50%;
+  top: 52%;
 }
 .our-stories{
   margin-top: 20px;
@@ -683,6 +689,7 @@ padding-top: 30px;
   width: 96%;
   gap: 10px;
   text-align: center;
+  padding-top: 30px;
   }
 
   .card-button-container{
@@ -727,12 +734,172 @@ margin-left: 0;
 
 .left-content h3{
   padding: 0;
-  margin-bottom: ;
+  margin-bottom: 10px;
 }
 .left-content p{
   padding-bottom: 0px ;
 }
+.left-img {
+  max-width: 60%;
+  margin-left: 0;
+}
 
 
+}
+/* for medium devices */
+@media screen and (min-width:576px) and (max-width:992px) {
 
+  body{
+    max-width: 100%;
+  }
+  .desktop{
+    display: none;
+  }
+  .mobile{
+    display: block;
+  }
+  nav{
+    gap: 180px;
+    padding: 0%;
+    margin: 10px auto;
+  }
+  /* banner */
+  .banner-container{
+    flex-direction: column-reverse;
+    max-width: 100%;
+    margin: 10px auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+  }
+  .banner-info{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 90%;
+  }
+  .banner-info h1{
+    text-align: center;
+    font-size: 2rem;
+  }
+  .banner-info p{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .banner-img img{
+    width: 80%;
+  }
+  .banner-button{
+    width: 131px;
+    height: 42px;
+    font-size: 1rem;
+
+  }
+/* standard section */
+
+.standard-container{
+max-width: 100%;
+margin: 20px 0;
+flex-direction: column;
+gap: 20px;
+}
+.standard{
+  background-size: auto;
+}
+
+.standard h2{
+font-size: 1.6rem;
+padding-top: 30px;
+
+}
+.cards3 ,.cards2, .cards{
+  max-width: 99%;
+  margin: 10px auto;
+}
+
+/* stories section */
+
+.right-card img{
+  
+  max-width: 100%;
+  margin: 0 auto;
+}
+.mini-card p{
+  
+  font-size: 12px;
+}
+.mini-card h5{
+  font-size: 8px;
+  top: 52%;
+}
+.our-stories{
+  margin-top: 20px;
+}
+
+.story-card{
+  width: 100%;
+  margin: 40px 0;
+}
+.mini-card{
+  max-width:100%;
+  margin: 0 auto;
+}
+
+
+.right-card{
+  max-width: 100%;
+  gap: 30px;
+  text-align: center;
+  justify-content: center;
+  padding-top: 30px;
+  }
+
+  .card-button-container{
+    margin: 40px  auto 0;
+    display: flex;
+  }
+
+/* Footer */
+
+
+.f-container{
+  max-width: 100%;
+  
+  margin: 0 auto;
+  margin-left: 0
+  padding: 0px 50px;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+
+.right-img{
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+}
+.right-img image{
+  margin: 0 auto;
+}
+
+.right-content{
+margin-top: 35px;
+}
+
+.left-content p{
+padding: 15px;
+}
+.center-content p{
+  margin-right: 1px;
+  text-align: center;
+  }
+  .center-icon a{
+    margin-right: 1px;
+    text-align: center;
+    }
+
+  
+  
 }
