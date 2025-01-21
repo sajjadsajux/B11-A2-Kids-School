@@ -869,8 +869,8 @@ padding-top: 30px;
   max-width: 100%;
   
   margin: 0 auto;
-  margin-left: 0
-  padding: 0px 50px;
+  margin-left: 0;
+  padding-right: 50px;
   padding-bottom: 20px;
   padding-top: 30px;
 }
@@ -895,11 +895,7 @@ padding: 15px;
   margin-right: 1px;
   text-align: center;
   }
-  .center-icon a{
-    margin-right: 1px;
-    text-align: center;
-    }
-
+  
   
   
 }
