@@ -558,9 +558,25 @@ margin-top: 20px;
 }
 
 
+/* Marque */
+.marq-text{
+  max-width: 1150px;
+  margin: 30px auto;
+  font-family: Quicksand;
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(90deg, #FFA500, #87CEEB, #FFA500); 
+  padding: 5px;
+  border-radius: 40%;
+}
 
-
-
+.book-bg{
+  color: rgb(0, 0, 0);
+}
+.star-bg{
+  color: rgb(4, 91, 126);
+}
 
 /*  */
 /* RESPONSIVE SECTION */
