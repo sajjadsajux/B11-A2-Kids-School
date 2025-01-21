@@ -174,6 +174,8 @@ background-repeat: no-repeat;
 background-size: cover; 
 width: 100%;
 height: 100%;
+margin: 0 auto;
+
 }
 .standard h2{
   text-align: center;
@@ -314,6 +316,145 @@ font-weight: 900;
   transition: transform 3s ease;
 }
 
+/* Our Stories */
+.our-stories{
+  background-image: url(assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+  background-size: cover;
+  width: 100%;
+  margin: 0 auto;
+  background-repeat: repeat;
+}
+.our-stories h2{
+  color: rgb(0, 0, 0);
+font-family: Quicksand;
+font-size: 46px;
+font-weight: 700;
+line-height: 2.8px;
+text-align: center;
+padding-top: 60px;
+}
+.story-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1160px;
+  margin-top: 80px;
+}
+
+.right-card{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,1fr);
+  width: 50%;
+  gap: 15px;
+}
+.left-card{
+  width: 500px;
+  max-height: 610px;
+
+  background-color: white;
+  border-radius: 16px;
+  position: relative;
+}
+.left-card img{
+  width: 500px;
+border-radius: 16px 16px 0 0;
+}
+.left-card h4{
+  
+  color: rgb(0, 0, 0);
+font-family: Quicksand;
+font-size: 1.5rem;
+font-weight: 700;
+line-height: 38.35px;
+text-align: left;
+padding: 35px 30px 25px;
+}
+.left-card p{
+  color: rgb(102, 102, 102);
+font-family: Quicksand;
+font-size: 1rem;
+font-weight: 500;
+line-height: 28.76px;
+letter-spacing: 0%;
+text-align: left;
+padding: 21px 30px;
+}
+.date-left{
+  position: absolute;
+  top: 50%;
+  left: 40px;
+  border-radius: 47.93px;
+  background: rgb(60, 216, 232);
+  font-size: 1rem;
+  text-align: center;
+  padding: 10px 15px;
+  color: rgb(255, 255, 255);
+}
+
+.mini-card{
+  width: 280px;
+max-height: 300px;
+background-color: white;
+column-gap: 10px;
+border-radius: 16px;
+position: relative;
+
+}
+.mini-card img{
+  width: 280px;
+  border-radius: 16px 16px 0 0;
+
+}
+.mini-card p{
+  color: rgb(0, 0, 0);
+font-family: Quicksand;
+font-size: 1rem;
+font-weight: 700;
+line-height: 28.76px;
+text-align: center;
+padding: 20px 15px;
+}
+.right-date{
+  position: absolute;
+  top: 53.5%;
+  left: 25%;
+  color: rgb(255, 255, 255);
+  font-family: Quicksand;
+font-size: 0.8rem;
+font-weight: 500;
+line-height: 28.76px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+border-radius: 47.93px;
+background: rgb(149, 178, 38);
+padding: 5px 12px;
+
+
+}
+.mini-card>#purple{
+background-color:  rgb(93, 88, 240);
+}
+
+
+.card-button{
+  color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+text-align: center;
+border-radius: 12px;
+background: rgb(17, 17, 17);
+padding: 10px 40px;
+}
+.card-button-container{
+  align-items: center;
+  justify-content: center;
+  margin: 80px auto 60px auto;
+  display: flex;
+}
 
 /*  */
 /* RESPONSIVE SECTION */
@@ -384,6 +525,23 @@ gap: 20px;
 font-size: 1.6rem;
 padding-top: 30px;
 
+}
+/* stories section */
+
+.right-card{
+  
+  max-width: 50px;
+  margin: 0 auto;
+}
+our-stories{
+  flex-direction: column;
+}
+.story-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
 }
 
 
