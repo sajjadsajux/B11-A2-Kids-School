@@ -528,21 +528,43 @@ padding-top: 30px;
 }
 /* stories section */
 
-.right-card{
+.right-card img{
   
-  max-width: 50px;
+  max-width: 100%;
   margin: 0 auto;
 }
-our-stories{
-  flex-direction: column;
+.mini-card p{
+  
+  font-size: 12px;
+  padding: 5px;
 }
+.mini-card h5{
+  padding: 0 5px;
+  font-size: 8px;
+  top: 50%;
+}
+.our-stories{
+  margin-top: 20px;
+}
+
 .story-card{
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
-  margin: 0 auto;
+  margin: 40px 0;
+}
+.mini-card{
+  width: 100%;
 }
 
 
+.right-card{
+ 
+  width: 96%;
+  gap: 10px;
+  text-align: center;
+  }
+
+  .card-button-container{
+    margin: 40px auto 40px auto;
+    display: flex;
+  }
 }
